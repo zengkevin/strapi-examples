@@ -154,7 +154,7 @@ class AuthPage extends React.Component {
               </div>
               <FormDivider />
               <form onSubmit={this.handleSubmit}>
-                <div className="row form-group" style={{ textAlign: 'start' }}>
+                <div className="row" style={{ textAlign: 'start' }}>
                   {map(inputs, (input, key) => (
                     <Input
                       autoFocus={key === 0}
