@@ -89,7 +89,7 @@ class AuthPage extends React.Component {
    */
   setForm = (formType, email) => {
     const value = get(form, ['data', formType], {});
-    console.log(value);
+    
     if (formType === 'reset-password') {
       set(value, 'code', email);
     }
