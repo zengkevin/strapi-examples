@@ -6,6 +6,7 @@ import ConnectPage from '../../containers/ConnectPage';
 import HomePage from '../../containers/HomePage';
 import PrivateRoute from '../../containers/PrivateRoute';
 import ProductsPage from '../../containers/ProductsPage';
+import EditPage from '../../containers/EditPage';
 
 import './styles.css';
 
@@ -20,9 +21,8 @@ class App extends Component {
             <PrivateRoute path="/" component={HomePage} exact />
             <Route exact path="/connect/:provider" component={ConnectPage} />
             <PrivateRoute exact path="/product" component={ProductsPage} />
-            {/* 
             <PrivateRoute path="/:contentType/:id" component={EditPage} />
-            <Route path="" component={NotFoundPage} /> */} */}
+            {/* <Route path="" component={NotFoundPage} /> */}
           </Switch>
         </div>
       </Router>

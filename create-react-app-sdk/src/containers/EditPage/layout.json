@@ -1,0 +1,23 @@
+{
+  "product": {
+    "attributes": {
+      "name": {
+        "type": "string"
+      },
+      "pictures": {
+        "collection": "file",
+        "via": "related",
+        "plugin": "upload"
+      },
+      "tags": {
+        "collection": "tag",
+        "via": "products"
+      },
+      "cover": {
+        "model": "file",
+        "via": "related",
+        "plugin": "upload"
+      }
+    }
+  }
+}

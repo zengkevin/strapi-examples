@@ -51,7 +51,7 @@ class ProductsPage extends React.PureComponent {
 					</div>
 					<div className="row">
 						<Table
-						data={this.state.products}
+						data={products}
 						headers={['id', 'name', 'pictures', '']}
 						onClick={this.onClick}
 						/>
