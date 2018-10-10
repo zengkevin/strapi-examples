@@ -1,0 +1,12 @@
+.article-page {
+  padding: 100px;
+}
+
+.article-page img {
+  max-width: 600px;
+}
+
+/* .article-page p {
+  max-width: 80%;
+  text-align: center;
+} */
